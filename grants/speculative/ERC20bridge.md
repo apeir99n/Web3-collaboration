@@ -2,7 +2,6 @@
 
 
 
-
 ## Abstract
 
 *In order to implement an ERC20 bridge we created a special Substrate-based chain (SubstrateDAI). The bridge validator nodes are launched together with the oracles of the token bridge and are separate software modules. The oracles listen to one of the chains (Ethereum or SubstrateDAI) and register bridge-related events, perform actions to approve relay requests from validators by collecting signatures, and send confirmation of approval to the other side of the bridge. The Ethereum to SubstrateDAI transfer will result in the creation of a newly minted token on SubstrateDAI chain known as sDAI.*
