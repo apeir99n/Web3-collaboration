@@ -283,7 +283,7 @@ Types:
 
 ### Exhibit B:  Substrate to Ethereum transfers
 
-<img src="/images/bridge2.png" alt="drawing" />
+<img src="images/bridge2.png" alt="drawing" />
 
 1. Sender calls **set_transfer**(recipient, amount) function and gets messageID - unique identifier of bridge transfer.
 
